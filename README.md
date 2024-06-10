@@ -20,3 +20,10 @@ mavproxy.py --master=/dev/ttyACM1 --out 127.0.0.1:14550 --out 127.0.0.1:14570 --
 to run Q ground
 ./QGroundControl.AppImage
 
+Incase of USB Serial not alow or bussy
+to list tty
+dmesg | grep tty
+if Access denied
+sudo chmod 666 /dev/ttyUSB0
+if bussy then Kill Process
+fuser -k /dev/ttyUSB0
