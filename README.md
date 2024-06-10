@@ -15,3 +15,8 @@ install Qground follow instruction  https://docs.qgroundcontrol.com/master/en/qg
 
 for mqtt install paho mqtt
 
+To run mav proxy with multiple udp out
+mavproxy.py --master=/dev/ttyACM1 --out 127.0.0.1:14550 --out 127.0.0.1:14570 --out 127.0.0.1:14560
+to run Q ground
+./QGroundControl.AppImage
+
