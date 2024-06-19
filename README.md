@@ -27,3 +27,6 @@ if Access denied
 sudo chmod 666 /dev/ttyUSB0
 if bussy then Kill Process
 fuser -k /dev/ttyUSB0
+
+get file 
+wget https://github.com/watcharains/autonomous_car/blob/main/aris_mission_with_stop.py
